@@ -32,16 +32,6 @@ st.sidebar.header("Input Features")
 sepalValue = st.sidebar.slider("sepal length(cm)", min_value=0.0, max_value=10.0, step=0.1)
 petalValue = st.sidebar.slider("petal length(cm)", min_value=0.0, max_value=10.0, step=0.1)
 
-# # メインパネル
-# st.title('Iris Classifier')
-# st.write('## Input Value')
-
-# # インプットデータ（1行のデータフレーム）
-# value_df = pd.DataFrame([],columns=['data','sepal length (cm)','petal length (cm)'])
-# record = pd.Series(['data',sepalValue, petalValue], index=value_df.columns)
-# value_df = value_df.append(record, ignore_index=True)
-# value_df.set_index('data',inplace=True)
-
 # メインパネル
 st.title("Iris Classifier")
 st.write("## Input Value")
