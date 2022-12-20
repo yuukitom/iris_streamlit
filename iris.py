@@ -32,6 +32,9 @@ petalValue = st.sidebar.slider("petal length(cm)", min_value=0.0, max_value=10.0
 
 # メインパネル
 st.title("Iris Classifier")
+st.write("アプリ概要：アヤメの花の品種を分類できるアプリです。")
+st.write("使い方：左サイドバーのスライダーでsepal length（がく片の長さ）とpetal length（花びらの長さ）の数値を調整するとResultに品種の予測結果が表示されます。")
+
 st.write("## Input Value")
 
 # インプットデータ（1行のデータフレーム）
